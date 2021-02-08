@@ -1,0 +1,8 @@
+version: 2.1
+jobs:
+  build:
+    machine:
+      image: windows-server-2019-vs2019:stable
+    parallelism: 4
+    steps:
+      - run: echo "Windows"
